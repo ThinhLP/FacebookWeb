@@ -1010,7 +1010,7 @@ section#main-body:after {
 
 .icon-fb {
     display: inline-block;
-    background: url('/img/icon.png');
+    background: url('../img/icon.png');
     background-repeat: no-repeat;
     width: 16px;
     height: 16px;
