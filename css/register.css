@@ -1,0 +1,229 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font: 16px Tahoma;
+    min-width: 1340px;
+}
+header,
+section,
+footer {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+#register-title-wrapper {
+    width: 100%;
+    background-color: #3C5A99;
+    height: 85px;
+    color: #fff;
+    background: linear-gradient(#4D68A2, #3B5998);
+}
+#register-title {
+    width: 72%;
+    margin: 0 auto;
+}
+#logo {
+    color: #fff;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 600;
+    float: left;
+    transform: translateY(30px);
+}
+#form-login {
+    display: inline-block;
+    width: 380px;
+    float: right;
+    font-size: 13px;
+    transform: translateY(8px);
+}
+#register-title:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+#form-login td {
+    padding-right: 10px;
+    padding-top: 4px;
+}
+#form-login td a {
+    color: #9CABC6;
+}
+#form-login td a:hover {
+    text-decoration: underline;
+}
+#form-login input[type='text'],
+#form-login input[type='password'] {
+    width: 150px;
+    outline: 0;
+    border: 0;
+    height: 22px;
+    padding-left: 5px;
+}
+#form-login button {
+    border: 1px solid #29487D;
+    outline: none;
+    width: 45px;
+    height: 22px;
+    background-color: #4267B2;
+    color: #fff;
+    cursor: pointer;
+}
+#form-login button:hover {
+    background-color: #365899;
+}
+
+/* Format for main body */
+
+#register-main-wrapper {
+    background: linear-gradient(#FFF, #D4D9E9);
+    height: 620px;
+}
+#register-main {
+    width: 72%;
+    margin: 0 auto;
+}
+#register-main-left {
+    float: left;
+    padding-top: 35px;
+    width: 550px;
+    height: 100%;
+}
+#register-main-right {
+    float: right;
+    width: 380px;
+    height: 100%;
+}
+#register-main:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.intro {
+    color: #0E385F;
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+}
+#form-register {
+    font-size: 18px;
+}
+.form-title {
+    font-size: 36px;
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+}
+.small-title {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+#form-register input[type="text"],
+#form-register input[type="password"] {
+    border: 1px solid #BDC7D8;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.half-field {
+    display: inline-block;
+    width: 187px !important;
+}
+#form-register label {
+    display: block;
+    margin-bottom: 10px;
+}
+#form-register a {
+    color: #365899;
+}
+#form-register a:hover {
+    text-decoration: underline;
+}
+#b-day,
+#b-month,
+#b-year {
+    padding: 7px 5px;
+    float: left;
+}
+.clear {
+    display: block;
+    clear: both;
+    display: inline-block;
+    margin-right: 5px;
+}
+.link-help {
+    font-size: 12px;
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+    color: #365899;
+}
+#terms {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #77777A;
+}
+#form-register button {
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #3B6E22;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(#66AB53, #578843);
+    cursor: pointer;
+    border-radius: 5px;
+}
+#form-register button:hover {
+    background: linear-gradient(#81C36B, #598A45);
+}
+.another-info {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #77777A;
+}
+footer {
+    background-color: #FFF;
+    font-size: 13px;
+    color: #77777A;
+}
+footer a {
+    color: #365899;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#f-language,
+#f-navigation,
+#f-copyright {
+    width: 72%;
+    margin: 10px auto;
+}
+#f-language {
+    border-bottom: 1px solid #DDDFE2;
+    padding-bottom: 15px;
+}
+#f-language ul {
+    list-style: none;
+}
+#f-language ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+#f-navigation table tr td {
+    padding: 3px 10px;
+    padding-left: 0;
+}
