@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Facebook</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
+    <header id="main-header-wrapper">
+        <div id="main-header">
+            <!--            <i class="fa fa-facebook-official" aria-hidden="true"></i>-->
+            <form id="search-form">
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <input type="text" placeholder="Search Facebook">
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+            <div id="header-info">
+                <div id="header-info-content">
+                    <span id="fb-info">
+                        <img src="img/profile_img.jpg">
+                        <span>Thịnh</span>
+                    </span>
+                    <span class="fb-spliter"> | </span>
+                    <span id="fb-home">Home</span>
+                    <span id="fb-noti">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        <i class="fa fa-comments" aria-hidden="true"></i>
+                        <i class="fa fa-globe have-number" aria-hidden="true"><span class="noti-number">20</span></i>
+
+                    </span>
+                    <span class="fb-spliter"> | </span>
+                    <span id="fb-setting">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <section id="main-body-wrapper">
+        <section id="main-body">
+            <aside id="main-body-left">
+                <ul class="user-info-list">
+                    <li>
+                        <img src="img/profile_img.jpg">
+                        <a href="#">Phúc Lê Thịnh</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <a href="#">Edit Profile</a>
+                    </li>
+                </ul>
+                <span class="info-title">FAVORITES</span>
+                <ul class="user-info-list">
+                    <li>
+                        <div class="icon-fb icon-news-feed"></div>
+                        <a href="#"> News Feed</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-mess"></div>
+                        <a href="#">Messages</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-event"></div>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group1"></div>
+                        <a href="#">FEV Chơi</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group2"></div>
+                        <a href="#">Class SE1065</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group3"></div>
+                        <a href="#">FEV Làm</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group4"></div>
+                        <a href="#">On This Day</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-shop"></div>
+                        <a href="#">Shops</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-save"></div>
+                        <a href="#">Saved</a>
+                    </li>
+                </ul>
+                <span class="info-title">GROUPS</span>
+                <ul class="user-info-list">
+                    <li>
+                        <div class="icon-fb icon-group2"></div>
+                        <a href="#">FPT University</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group5"></div>
+                        <a href="#">IS Group</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group6"></div>
+                        <a href="#">Art - Diễn họa thủ công</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group7"></div>
+                        <a href="#">Music</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group-discover"></div>
+                        <a href="#">Discover Groups</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-group-create"></div>
+                        <a href="#">Create Group</a>
+                    </li>
+                </ul>
+                <span class="info-title">APPS</span>
+                <ul class="user-info-list">
+                    <li>
+                        <div class="icon-fb icon-game-feed"></div>
+                        <a href="#">Games Feed</a>
+                    </li>
+                    <li>
+                        <div class="icon-fb icon-note"></div>
+                        <a href="#">Note</a>
+                    </li>
+                </ul>
+                <span class="info-title">PAYMENTS</span>
+                <ul class="user-info-list">
+                    <li>
+                        <div class="icon-fb icon-payment"></div>
+                        <a href="#">Payment History</a>
+                    </li>
+                </ul>
+            </aside>
+            <section id="main-body-middle">
+                <form id="post-status" class="fb-box">
+                    <div id="status-photo">
+                        <span class="status-photo-span">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                            Photos/Videos
+                            <span class="func-hover-bottom">Photos/Videos</span>
+                        </span>
+                        <span class="status-photo-span">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            Photo/Video Album
+                             <span class="func-hover-bottom">Photos/Video Album</span>
+                        </span>
+                    </div>
+                    <div id="status-content">
+                        <img src="img/profile_img.jpg ">
+                        <input type="text" placeholder="What's on your mind?">
+                    </div>
+                    <div id="status-action">
+                        <div id="status-reaction">
+                        </div>
+                        <div id="status-button">
+                            <div id="status-mode">
+                                <i class="fa fa-globe" aria-hidden="true"></i> &nbsp;Public
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                <span class="func-hover-top">Public</span>
+                            </div>
+                            <button type="submit" class="button-hover">Post</button>
+                        </div>
+
+                    </div>
+                </form>
+                <!-- Post -->
+                <div class="user-post fb-box">
+
+                    <div class="user-post-title">
+                        <a href="#"><img src="img/profile_img.jpg"></a>
+                        <span><a href="#">Phúc Lê Thịnh</a> updated his profile picture.</span>
+                        <span>20 minutes <i class="fa fa-globe" aria-hidden="true"></i> </span>
+                    </div>
+                    <div class="user-post-content">
+                        <img src="img/profile_img.jpg">
+                    </div>
+                    <div class="user-post-reaction">
+                        <span class="user-post-active"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</span>
+                        <span><i class="fa fa-comment" aria-hidden="true"></i> Comment</span>
+                        <span><i class="fa fa-share" aria-hidden="true"></i> Share</span>
+
+                    </div>
+                    <div class="user-post-comment">
+                        <div class="user-post-number"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <a href="#" class="number-of-like">You and 20 others</a>
+                        </div>
+                        <div class="user-friend-comment">
+                            <div class="user-friend-img">
+                                <a href="#"><img src="img/fanpage.png"></a>
+                            </div>
+                            <div class="user-friend-content">
+                                <a href="#" class="friend-comment-name">FPT Event Club</a>
+                                <span class="friend-comment-content"> Ahihi :></span>
+                                <div class="friend-comment-reaction">
+                                    <a href="#">Like</a>
+                                    <a href="#">Reply</a><span>12 mins</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="user-input-comment">
+                            <img src="img/profile_img.jpg">
+                            <div class="user-input-comment-box">
+                                <input type="text" placeholder="Write a comment...">
+                                <div class="user-input-emotion">
+                                    <span><i class="fa fa-camera" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-smile-o" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <aside id="main-body-right">
+                <div class="fb-box" id="user-page">
+                    <div class="box-tittle">YOUR PAGES <i class="fa fa-caret-down i-right" aria-hidden="true" id="fpage-down"></i></div>
+                    <div id="user-page-content">
+                        <div class="box-tittle fp-info">
+                            <img src="img/fanpage.png" id="fp-img"><a href="#" id="fp-name">FPT Event Club - The Way We Went</a>
+                        </div>
+                        <div class="box-tittle">
+                            <div>This Week</div>
+                            <div id="fp-parameter">
+                                <div class="fp-param-detail">
+                                    <a href="#" class="fp-number">15</a>
+                                    <a href="#" class="fp-description">Post Reach</a>
+                                </div>
+                                <div class="fp-param-detail">
+                                    <a href="#" class="fp-number">86</a>
+                                    <a href="#" class="fp-description">People Engaged</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-tittle" id="recent-post">
+                            <span>Recent Posts</span>
+                            <span class="fp-topic"><i class="fa fa-pencil-square-o" aria-hidden="true"></i><a href="#">FPT Event Club added a new photo to the album</a></span>
+                            <span id="boost-post" class="button-hover">Boost Post</span>
+                            <span class="fp-topic"><i class="fa fa-pencil-square-o" aria-hidden="true"></i><a href="#">Trung thu tới bạn đã đi đâu trong dịp này?</a></span>
+                            <span class="fp-topic see-more"><i class=" fa fa-caret-down " aria-hidden="true "></i>
+                        <a href="#">See more</a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fb-box" id="add-friend">
+                    <div class="box-tittle">PEOPLE YOU MAY KNOW</div>
+                    <ul class="add-friend-list">
+                        <li>
+                            <div class="add-friend-img">
+                                <a href="#"><img src="img/add_friend_1.jpg"></a>
+                            </div>
+                            <div class="add-friend-info">
+                                <a href="#" class="add-fr-name">Bà Già</a>
+                                <a href="#" class="add-fr-mutual">6 mutual friends</a>
+                                <span class="add-fr-button span-button"><i class="fa fa-user-plus" aria-hidden="true"></i> Add friend</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="add-friend-img">
+                                <a href="#"><img src="img/fanpage.png"></a>
+                            </div>
+                            <div class="add-friend-info">
+                                <a href="#" class="add-fr-name">Ông Già</a>
+                                <a href="#" class="add-fr-mutual">10 mutual friends</a>
+                                <span class="add-fr-button span-button"><i class="fa fa-user-plus" aria-hidden="true"></i> Add friend</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="add-friend-img">
+                                <a href="#"><img src="img/add_friend_3.png"></a>
+                            </div>
+                            <div class="add-friend-info">
+                                <a href="#" class="add-fr-name">Osama Binladen</a>
+                                <a href="#" class="add-fr-mutual">13 mutual friends</a>
+                                <span class="add-fr-button span-button"><i class="fa fa-user-plus" aria-hidden="true"></i> Add friend</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fb-box">
+                    <ul class="language-wrapper">
+                        <li><a href="#">English (US)</a> · </li>
+                        <li><a href="#">Tiếng Việt</a> · </li>
+                        <li><a href="#">中文(台灣)</a> · </li>
+                        <li><a href="#">Español</a> · </li>
+                        <li><a href="#">Português (Brasil)</a></li>
+                    </ul>
+                    <span class="language-plus span-button"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                </div>
+                <ul class="language-wrapper">
+                    <li><a href="#">Privacy</a> · </li>
+                    <li><a href="#">Terms</a> · </li>
+                    <li><a href="#">Advertising</a> · </li>
+                    <li><a href="#">Ad Choices</a> · </li>
+                    <li><a href="#">Cookies</a> · </li>
+                    <li><a href="#">More <i class="fa fa-caret-down" aria-hidden="true"></i></a> </li>
+                </ul>
+                <span class="footer">Facebook &copy; 2016</span>
+                <span class="footer">Design by ThinhLP</span>
+                <div id="messger-box-toogle" class="fb-box">
+                    <i class="fa fa-circle" id="fb-online" aria-hidden="true"></i> <span>Chat (345)</span>
+                </div>
+                <div id="messger-box" class="fb-box">
+                    <div class="messger-tittle">
+                        Chat
+                        <div class="messger-setting">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true" id="mess-set"> <span class="new-message-hover">New Message</span></i>
+                            <i class="fa fa-cog" aria-hidden="true" id="mess-op"> <span class="option-hover">Options</span></i>
+
+                        </div>
+                    </div>
+                    <ul class="list-friend">
+                        <li>
+                            <img src="img/profile_img.jpg"><span class="friend-name">Phúc Lê Thịnh</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            <div class="friend-profile fb-box">
+                                <img src="img/profile_img.jpg">
+                                <div class="friend-profile-content">
+                                    <span class="friend-profile-name add-fr-name">Phúc Lê Thịnh</span>
+                                    <span class="friend-profile-follower">12345 followers</span>
+                                    <span class="friend-profile-mutual"><i class="fa fa-users" aria-hidden="true"></i> 123 mutuals friends include <a href="#">FPT Event Club</a>, <a href="#">Han Vy</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/fanpage.png"><span class="friend-name">FPT Event Club</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            <div class="friend-profile fb-box">
+                                <img src="img/fanpage.png">
+                                <div class="friend-profile-content">
+                                    <span class="friend-profile-name add-fr-name">FPT Event Club</span>
+                                    <span class="friend-profile-follower">12345 followers</span>
+                                    <span class="friend-profile-mutual"><i class="fa fa-users" aria-hidden="true"></i> 123 mutuals friends include <a href="#">FPT Event Club</a>, <a href="#">Han Vy</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/friend_1.jpg"><span class="friend-name">Han Vy</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </li>
+                        <li>
+                            <img src="img/friend_2.jpg"><span class="friend-name">Phuc Duong</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </li>
+                        <li>
+                            <img src="img/friend_3.jpg"><span class="friend-name">Hieu Pham</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </li>
+                        <li>
+                            <img src="img/friend_4.jpg"><span class="friend-name">Nguyễn Ngọc Phương Trinh</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </li>
+                        <li>
+                            <img src="img/friend_5.jpg"><span class="friend-name">Nguyễn Bích Ngọc</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </li>
+                        <li>
+                            <img src="img/fanpage.png"><span class="friend-name">Én Nhi</span>
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </li>
+                    </ul>
+                    <div class="search-friend">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </aside>
+        </section>
+    </section>
+
+    <!--
+<footer>
+    &copy; 2016 by Facebook
+</footer>
+-->
+    <script>
+        $(document).ready(function() {
+            $(".messger-tittle").click(function() {
+                $("#messger-box").hide();
+                $("#messger-box-toogle").show();
+            });
+            $("#messger-box-toogle").click(function() {
+                $("#messger-box").show();
+                $("#messger-box-toogle").hide();
+            });
+            $("#fpage-down").click(function() {
+                $("#user-page-content").toggle();
+
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>
